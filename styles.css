@@ -108,7 +108,7 @@ section ul li{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transition: all 500ms linear;
+    transition: all 400ms ease-out;
 }
 .card:hover{
     box-shadow: 0 5px 50px rgba(17, 17, 17, 0.1);
@@ -125,6 +125,7 @@ section ul li{
 .card header{
     margin-top: 1em;
     align-self: flex-start;
+    color: white;
 }
 .card footer{
     align-self: flex-start;
@@ -156,9 +157,13 @@ section ul li{
     }
     section ul{
         display: block;
+        padding:0;
     }
     section ul li{
         width: 100%;
         margin-bottom:2em;
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
 }
