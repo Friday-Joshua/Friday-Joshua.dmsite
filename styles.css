@@ -150,3 +150,12 @@ section ul li{
     border-radius: 30px;
    
 }
+
+@media screen and (max-width:500px) {
+    section ul{
+        display: block;
+    }
+    section ul li{
+        width: 80%;
+    }
+}
