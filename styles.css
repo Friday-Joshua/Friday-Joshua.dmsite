@@ -7,7 +7,7 @@
 html,body{
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: hsl(200, 100%, 98%);
+    background-color: #111;
 }
 
 #dialog{
@@ -102,7 +102,7 @@ section ul li{
     overflow: hidden;
     height: 380px;
 
-    background-color: white;
+    background-color: #222;
     border-radius: 20px;
 }
 .card{
