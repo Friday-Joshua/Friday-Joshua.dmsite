@@ -157,7 +157,7 @@ section ul li{
         flex-direction:column;
         align-items:flex-start;
     }
-    nav {
+    nav ul{
         width:80%;
         color:#fff;
         display:flex;
@@ -167,6 +167,9 @@ section ul li{
     form, input { 
         width:80%;
         border:1px solid white;
+    }
+    #category{
+        margin-top:2em;
     }
     section ul{
         display: block;
