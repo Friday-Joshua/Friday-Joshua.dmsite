@@ -164,12 +164,16 @@ section ul li{
         justify-content: space-between;
         align-items: center;
     }
-    form, input { 
-        width:80%;
+    form{
+        width:90%;
+    }
+     input { 
+         display:block;
+        width:100%;
         border:1px solid white;
     }
     #category{
-        margin-top:2em;
+        margin-top:4em;
     }
     section ul{
         display: block;
