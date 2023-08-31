@@ -21,7 +21,6 @@ for(let card of cards){
 const dialogCloser = dialog.getElementsByClassName("close")[0];
 dialogCloser.addEventListener("click",evt=>{
     dialog.removeChild(dialog.getElementsByTagName("article")[0]);
-    dialog.style.display = "none";
-    dialog.removeChild(dialog.getElementsByTagName("article")[0]);
+    dialog.removeChild(dialog.getElementsById("desc"));
     dialog.style.display = "none";
 })
