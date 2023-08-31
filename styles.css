@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 :root{
-    --primary-color:#1897eb;
+    --primary-color:#111;
 }
 html,body{
     margin: 0;
@@ -156,6 +156,7 @@ section ul li{
         display: block;
     }
     section ul li{
-        width: 80%;
+        width: 100%;
+        margin-bottom:2em;
     }
 }
