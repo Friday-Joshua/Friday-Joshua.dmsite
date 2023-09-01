@@ -163,6 +163,7 @@ section ul li{
         width:80%;
         color:#fff;
         display:flex;
+       flex-direction:column;
         justify-content: space-between;
         align-items: center;
        border:1px solid white;
@@ -173,9 +174,11 @@ section ul li{
     }
      #header input { 
         display:block;
-        padding:1em;
+        padding:2em;
         width:100%;
         border:1px solid white;
+         color: white;
+        height:55px;
     }
     #category{
         margin:2em 2em;
