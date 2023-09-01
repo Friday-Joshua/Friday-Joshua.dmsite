@@ -159,6 +159,9 @@ section ul li{
         border:1px solid white;
         align-items:flex-start;
     }
+    #header nav{
+        width:100%
+    }
    #header nav ul{
         width:80%;
         color:#fff;
@@ -178,7 +181,7 @@ section ul li{
         width:100%;
         border:1px solid white;
          color: white;
-        height:55px;
+        height:50px;
     }
     #category{
         margin:2em 2em;
@@ -196,6 +199,6 @@ section ul li{
         align-items: center;
     }
     .card{
-        width: 90%;
+        width: 80%;
 }
 }
