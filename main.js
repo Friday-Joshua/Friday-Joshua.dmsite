@@ -14,13 +14,13 @@ for(let card of cards){
         dialog.style.display = "block";
         desc.style.display = "block";
         dialog.appendChild(card.cloneNode(true));
-        dialog.appendChild(desc.cloneNode(true));
+        //dialog.appendChild(desc.cloneNode(true));
     })
 }
 
 const dialogCloser = dialog.getElementsByClassName("close")[0];
 dialogCloser.addEventListener("click",evt=>{
     dialog.removeChild(dialog.getElementsByTagName("article")[0]);
-    dialog.removeChild(dialog.getElementsById("desc"));
+    //dialog.removeChild(dialog.getElementsById("desc"));
     dialog.style.display = "none";
 })
