@@ -126,7 +126,7 @@ section ul li{
     transition: all 400ms ease-out;
 }
 .card:hover{
-    box-shadow: 0 5px 50px rgba(17, 17, 17, 0.3);
+    box-shadow: 0 5px 20px rgba(17, 17, 17, 0.3);
     transform: scale(1.1);
 }
 .card:hover img{
@@ -140,6 +140,7 @@ section ul li{
     height: 70%;
     max-height: 70%;
     transition:all 400ms ease-out;
+    user-select:none;
 }
 .card header{
     margin-top: 1em;
