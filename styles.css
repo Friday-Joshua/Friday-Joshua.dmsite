@@ -130,7 +130,9 @@ section ul li{
     transform: scale(1.1);
 }
 .card:hover img{
-    object-size:110% 110%;
+    object-position: center;
+    width:110%;
+    height:110%;
 }
 .card img{
     border-top-left-radius: 20px;
