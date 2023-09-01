@@ -90,12 +90,13 @@ li a:hover{
     background:rgba(255,255,255,0.1);
 }
 #category{
+    width:80%;
     display:flex;
     justify-content:space-between;
     align-items: center;
 }
 #caregory strong{
-    color:#bbb;
+    color:#555;
 }
 section ul{
     display: flex;
@@ -207,7 +208,7 @@ section ul li{
          height:100%;
     }
     #category{
-        margin:11em 0 2em 2em;
+        
     }
     section ul{
         display: block;
