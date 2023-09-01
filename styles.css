@@ -165,6 +165,7 @@ section ul li{
         display:flex;
         justify-content: space-between;
         align-items: center;
+       border:1px solid white;
     }
     #header form{
         width:100%;
