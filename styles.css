@@ -117,7 +117,6 @@ section ul li{
     margin: 0;
     overflow: hidden;
     height: 400px;
-    max-height:400px;
     background-color: #222;
     border-radius: 20px;
     display: flex;
@@ -133,7 +132,7 @@ section ul li{
 .card:hover img{
     object-position: center;
     width:120%;
-    height:120%;
+    
 }
 .card img{
     border-top-left-radius: 20px;
