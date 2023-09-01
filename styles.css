@@ -126,7 +126,7 @@ section ul li{
     transition: all 400ms ease-out;
 }
 .card:hover{
-    box-shadow: 0 5px 50px rgba(17, 17, 17, 0.1);
+    box-shadow: 0 5px 50px rgba(17, 17, 17, 0.3);
     transform: scale(1.1);
 }
 .card:hover img{
@@ -144,12 +144,12 @@ section ul li{
 .card header{
     margin-top: 1em;
     align-self: flex-start;
-    color: white;
+    color: #111;
 }
 .card footer{
     align-self: flex-start;
     padding-left: 1.3em;
-    color:#bbb;
+    color:#888;
 }
 .card h3{
     color: var(--primary-color);
