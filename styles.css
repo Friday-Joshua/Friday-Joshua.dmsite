@@ -140,7 +140,7 @@ section ul li{
     height: 70%;
     max-height: 70%;
     transition:all 400ms ease-out;
-    user-select:none;
+    pointer:none;
 }
 .card header{
     margin-top: 1em;
