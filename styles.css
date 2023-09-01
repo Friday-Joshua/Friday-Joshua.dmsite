@@ -156,6 +156,9 @@ section ul li{
 
 @media screen and (max-width:500px) {
     #header{
+        position:fixed;
+        top:0;
+        left:0;
         width:100%;
         gap:15px;
         flex-direction:column;
@@ -179,7 +182,7 @@ section ul li{
     }
     #header form{
         width:100%; 
-        height:20px;
+        height:15px;
     }
 ::placeholder {
     color:#eee;
@@ -193,7 +196,7 @@ section ul li{
          height:100%;
     }
     #category{
-        margin:2em 2em;
+        margin:5em 2em;
     }
     section ul{
         display: block;
