@@ -159,6 +159,8 @@ section ul li{
         position:fixed;
         top:0;
         left:0;
+        z-index:100;
+
         width:100%;
         gap:15px;
         flex-direction:column;
@@ -189,14 +191,14 @@ section ul li{
 }
      #header input { 
         display:block;
-        padding:2em;
+        padding:0em;
         width:100%;
         border:1px solid white;
          color: white;
          height:100%;
     }
     #category{
-        margin:5em 2em;
+        margin:15em 2em;
     }
     section ul{
         display: block;
