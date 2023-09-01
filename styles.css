@@ -208,7 +208,9 @@ section ul li{
          height:100%;
     }
     #category{
-        margin:12em 0 2em 0;
+        margin:11em 0 1em 0;
+        magin-left:auto;
+
     }
     section ul{
         display: block;
