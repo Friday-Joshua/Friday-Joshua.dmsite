@@ -164,11 +164,11 @@ section ul li{
         margin:0;
     }
    #header nav ul{
-        width:80%;
+        width:100%;
         color:#fff;
         display:flex;
        gap:15px;
-
+       border:1px solid white;
        flex-direction:row;
         justify-content: space-between;
         align-items: center;
