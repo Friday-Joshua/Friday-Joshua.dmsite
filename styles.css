@@ -152,7 +152,7 @@ section ul li{
     color:#888;
 }
 .card h3{
-    color: var(--primary-color);
+    color: #111;
 }
 .card h3,#category,button{
     margin: 0 20px;
@@ -219,7 +219,7 @@ section ul li{
          height:100%;
     }
     #category{
-        margin:10em 0 0.5em 0;
+        margin:8em 0 0.5em 0;
         magin-left:auto;
 
     }
