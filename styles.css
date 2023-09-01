@@ -131,7 +131,6 @@ section ul li{
 }
 .card:hover img{
     object-position: center;
-    width:120%;
     
 }
 .card img{
@@ -163,6 +162,7 @@ section ul li{
     margin-bottom: 20px;
     width: 85%;
     height: 40px;
+    min-height:40px;
     border: none;
     background-color: #1897eb;
     color: white;
