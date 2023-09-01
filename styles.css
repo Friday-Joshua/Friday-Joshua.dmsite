@@ -156,7 +156,7 @@ section ul li{
         width:100%;
         gap:15px;
         flex-direction:column;
-        border:1px solid white;
+        background:dodgerblue;
         align-items:flex-start;
         justify-content:space-between;
     }
@@ -165,18 +165,17 @@ section ul li{
         margin:0;
     }
    #header nav ul{
+       padding:0;
         width:100%;
         color:#fff;
         display:flex;
        gap:15px;
-       border:1px solid white;
        flex-direction:row;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
     }
     #header form{
-        width:100%;
-        
+        width:100%; 
     }
      #header input { 
         display:block;
