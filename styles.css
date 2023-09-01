@@ -161,15 +161,17 @@ section ul li{
     }
     #header nav{
         width:100%
+        margin:0;
     }
    #header nav ul{
         width:80%;
         color:#fff;
         display:flex;
-       flex-direction:column;
+       gap:15px;
+
+       flex-direction:row;
         justify-content: space-between;
         align-items: center;
-       border:1px solid white;
     }
     #header form{
         width:100%;
@@ -181,15 +183,13 @@ section ul li{
         width:100%;
         border:1px solid white;
          color: white;
-        height:50px;
     }
     #category{
         margin:2em 2em;
     }
     section ul{
         display: block;
-        padding:0;
-        
+        padding:0; 
     }
     section ul li{
         width:100%;
