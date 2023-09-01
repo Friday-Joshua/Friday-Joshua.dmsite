@@ -191,14 +191,14 @@ section ul li{
 }
      #header input { 
         display:block;
-        padding:0em;
+        padding:1em;
         width:100%;
         border:1px solid white;
          color: white;
          height:100%;
     }
     #category{
-        margin:10em 0 2em 2em;
+        margin:11em 0 2em 0.5em;
     }
     section ul{
         display: block;
