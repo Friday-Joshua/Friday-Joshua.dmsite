@@ -183,8 +183,11 @@ section ul li{
         width:100%;
         height:33px;
         margin:0;
+        background:white;
     }
    #header nav ul{
+       height:100%;
+       margin:0;
        padding:0;
         width:100%;
         color:#fff;
