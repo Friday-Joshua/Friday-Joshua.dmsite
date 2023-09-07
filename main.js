@@ -10,21 +10,3 @@ btns.forEach(function(btn){
     })
 });
 
-const cards = Array.from(document.getElementsByTagName("article"));
-const dialog = document.getElementById('dialog');
-const desc = document.getElementById("desc");
-for(let card of cards){
-    card.addEventListener("click", evt=>{      
-        dialog.style.display = "block";
-        desc.style.display = "block";
-        dialog.appendChild(card.cloneNode(true));
-        //dialog.appendChild(desc.cloneNode(true));
-    })
-}
-
-const dialogCloser = dialog.getElementsByClassName("close")[0];
-dialogCloser.addEventListener("click",evt=>{
-    dialog.removeChild(dialog.getElementsByTagName("article")[0]);
-    //dialog.removeChild(dialog.getElementsById("desc"));
-    dialog.style.display = "none";
-})
