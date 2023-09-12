@@ -140,7 +140,7 @@ section ul li{
     height: 70%;
     max-height: 70%;
     transition:all 400ms ease-out;
-    pointer:none;
+    pointer-events:none;
 }
 .card header{
     margin-top: 1em;
@@ -221,7 +221,7 @@ section ul li{
     }
     #category{
         margin:8em 0 0.5em 0;
-        magin-left:auto;
+        margin-left:auto;
 
     }
     section ul{
